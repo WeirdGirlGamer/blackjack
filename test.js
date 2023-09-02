@@ -1,0 +1,10 @@
+import { Player } from "./player.js";
+import { Deck } from "./deck.js";
+import { Card } from "./card.js";
+const player = new Player(false);
+player.addToHand(new Card(1, "Diamonds"));
+player.addToHand(new Card(5, "Diamonds"));
+player.addToHand(new Card(10, "Diamonds"));
+player.showHand();
+player.checkHand();
+player.showHand();
